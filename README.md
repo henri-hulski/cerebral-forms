@@ -131,7 +131,7 @@ export default connect({
         <input
           value={form.firstName.value}
           onChange={(event) => fieldChanged({
-            path: 'someModule.firstName',
+            field: 'someModule.firstName',
             value: event.target.value
           })}
           />
@@ -172,7 +172,7 @@ export default connect({
         <input
           value={form.firstName.value}
           onChange={(event) => fieldChanged({
-            path: 'someModule.firstName',
+            field: 'someModule.firstName',
             value: event.target.value
           })}
           />
